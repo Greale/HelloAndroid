@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/udacity_logo"
+        android:background="@android:color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="U d a c i t y"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="@android:color/holo_blue_light" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="2465 Latham St\nMountain View, CA 94043\n\n650-555-5555\n\nwww.udacity.com"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light" />
+</LinearLayout>
